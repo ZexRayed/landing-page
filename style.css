@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border-radius: 10px;
+}
+
+
+
+.sec1 {
+    display: flex;
+    flex-wrap: wrap;
+background-color: #1F2937;
+color: aliceblue;
+padding: 15px 100px;
+font-size: 18px;
+text-transform: capitalize;
+
+}
+.sec1 .logo {
+    font-size: 24px;
+}
+
+.sec1 .header1 {
+    display: flex;
+ width: 100%;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+ .sec1 ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+.sec1 a {
+    text-decoration: none;
+    color: aliceblue;
+
+}
+.sec1 .header2 {
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    width: 100%;
+    gap: 50px;
+}
+.sec1 .header2 .text {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 20px;
+}
+.sec1 .header2 .text h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+.sec1 .header2 button {
+    width: 20%;
+    color: aliceblue;
+    background-color: #3882F6;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border-color: aliceblue;
+}
+.sec1 .header2 .img {
+    background-color: gray;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.sec2 {
+    margin-bottom:40px;
+}
+
+    .sec2 img {
+
+        width: 100px;
+        height: 100px;
+      
+        
+      
+      }
+      
+      .sec2 .title {
+        font-size: 36px;
+        font-weight: 900;
+      margin-bottom: 40px;
+      margin-top: 32px;
+      text-align: center;
+      }
+      
+      
+      
+      
+      .sec2 .img {
+      
+        display: flex;
+        justify-content: center;
+        gap: 52px;
+      
+      
+      }
+      
+      .sec2 .img div {
+        max-width: 200px;
+      }
+      
+
+
+.sec3 {
+margin: 0 auto;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #E5E7EB;
+font-size: 36px;
+color: #1f2937;
+padding: 20px 100px;
+flex-wrap: wrap;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec3 div{
+    width: 70%;
+}
+.sec3 span {
+width: 100%;
+display: flex;
+justify-content: end;
+}
+
+.sec4 {
+    padding: 100px;
+}
+.sec4 .cont {
+   
+    padding: 50px;
+    display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #3882F6;
+color: #E5E7EB;
+}
+.sec4 button {
+    background-color: #3882F6;
+color: #E5E7EB;
+border-color: white;
+padding: 10px 25px;
+border-radius: 20px;
+font-weight: 800;
+}
+
+footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    text-transform: capitalize;
+    height: 150px;
+}
+
+
